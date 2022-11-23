@@ -26,11 +26,11 @@ const app = express()
   app.get('/signin', (req, res) => res.send('We haven\'t configured authentication!'))
   
   app.get('/signout', (req, res) => {
-    // TODO
+    // TODO 
   })
 
   app.get('/redirect', (req, res) => {
-    // TODO
+    // TODO 
   })
 
   app.listen(SERVER_PORT, () => {
